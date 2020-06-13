@@ -1,0 +1,171 @@
+/*Estrutura
+Seletor
+{
+    propriedade: valor;
+    propriedade: valor;
+}
+
+*
+{
+    Especifica um estilo comum para todos os elementos
+}
+
+.nomeAtributo
+{
+    Especifica o estilo de um atributo de um objeto
+}
+header > nav
+{
+    acessando elementos dentro de elementos 
+    > especifica hierarquia entre elementos
+}
+#home
+{
+    Identifica o elemento de forma unica
+    Significa: id = "home";
+}
+*/
+
+*
+{
+    font: 12px sans-serif;
+}
+
+body
+{
+    background-image: url("Conteudo/fundo.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 100%;
+}
+h1
+{
+    color: darkgreen;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px; 
+}
+
+.botao
+{
+    width: 115px;
+    height: 25px;
+    background: #99cc41;
+    padding: 10px; /*Distancia da borda ao texto*/
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+
+}
+
+header > nav
+{
+    float: right;
+}
+
+header > nav > a
+{
+    padding: 25px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+#logo
+{
+    height: 350px;
+    text-align: center;
+}
+section
+{
+    text-align: center;
+}
+header
+{
+    margin-top: 25px;
+    height: 80px;
+}
+.logomarca
+{
+    width: 20%;
+}
+#logo > p
+{
+    color: white;
+    margin-left: 350px;
+    margin-right: 350px;
+    text-align: center;
+}
+#diferenciais > figure
+{
+    margin-left: 240px;
+    margin-top: 270px;
+    margin-right: auto;
+    float: left;
+}
+#compromisso > figure
+{
+    /*border: 1px solid;*/
+    width:400px;
+    height: 650px;
+    margin-left: 240px;
+    margin-top: 50px;
+    margin-right: auto;
+    text-align: justify;
+    font-size: large;
+    float: left;
+    background-color: beige;
+    padding: 20px;
+    border-radius: 5px;
+    /*border-color: blanchedalmond;*/
+    
+}
+#compromisso > figure > img
+{
+    /*padding: 10px;*/
+    border-radius: 5px;
+    border: 10px;
+}
+#conquistas > figure
+{
+    /*border: 1px solid;*/
+    width:400px;
+    height: 650px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-right: auto;
+    text-align: justify;
+    float: left;
+    background-color: beige;
+    padding: 20px;
+    border-radius: 5px;
+    /*border-color: blanchedalmond;*/
+    
+}
+#conquistas > figure > img
+{
+    border-radius: 5px;
+}
+#conquistas > figure > div > dl > dt
+{
+    font-weight: bold;
+    font-style: normal;
+}
+#conquistas > figure > div > dl > dd
+{
+    font-style: italic;
+    font-size: x-small;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+footer
+{
+    margin-left: 240px;
+    margin-top: 100px;
+    /*margin-right: auto;*/
+    float: right;
+}
